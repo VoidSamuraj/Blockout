@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+            #wynik,canvas{
+                border: 4px groove gold; 
+            }
+            #max,#cur,#start{
+                 font-family: 'Orbitron', sans-serif;
+                 color: #00FF00;
+            } 
+            #start{
+                background-color: #666600;
+                width: 50%;
+                height: 30px;
+            }
+            #start:disabled{
+                  background-color: gray;
+            }
+
+        </style>
+  
+    </head>
+    <body style="background-color: black;margin:0px;">
+     
+        <center >
+            <div style="display: flex;">
+                <canvas  id="canvas"></canvas>
+                <div style="display: flex; flex-direction: column;">  
+                    <div id="wynik" style="flex-grow: 1;min-height: 125px;" >
+                        <p id="max">Najwyższy wynik:</p>
+                        <p id="cur">Wynik:</p>
+                         <input type="button" value="START" id="start" onclick="start()" >
+                    </div>
+                <canvas id="nast1" style="flex-grow: 1;"></canvas>
+                <canvas id="nast2" style="flex-grow: 1;"></canvas>
+                <canvas id="nast3" style="flex-grow: 1;"></canvas>
+                </div>
+            </div>
+        </center>
+
+                <script src="newjavascript1.js" type="text/javascript"></script>
+    </body>
+</html>
