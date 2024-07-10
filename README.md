@@ -28,4 +28,4 @@ The game involves arranging blocks in such a way as to fill entire planes, which
 
 ## License
 
-Distributed under the GNU License. See `LICENSE.txt` for more information.
+Distributed under the GNU License. See <a href="https://github.com/VoidSamuraj/Blockout/blob/main/LICENSE">`LICENSE`</a> for more information.
