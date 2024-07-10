@@ -25,3 +25,7 @@ The game involves arranging blocks in such a way as to fill entire planes, which
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [JS]: https://img.shields.io/badge/JavaScript-grey?style=for-the-badge&logo=javascript 
+
+## License
+
+Distributed under the GNU License. See `LICENSE.txt` for more information.
